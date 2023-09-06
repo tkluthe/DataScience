@@ -1,6 +1,6 @@
 # Docker Procedures
 
-These are the procedures for running the Quorum website using docker. This file 
+These are the procedures for running the Experiment Replication website using docker. This file 
 describes the steps necessary to get the system running from first principles. 
 
 
@@ -12,7 +12,7 @@ The following software is needed to compile the whole stack:
 
 ## Clone Repositories
 
-1. Clone the DataScience repository: https://github.com/qorf/DataScience.git
+1. Clone the DataScience repository:
 2. The .yml is set to use a localhost version of the nginx conf file, you can change this to the prod version found in the same directory (conf/nginx/nginx-prod.conf), 
 		and then generate self-signed certificates and place them in the folder named "secret." One command for doing this is listed in Common Issues.
 3. Copy the default environment file for the local server and change it if used in production (e.g., cp env-dev .env). This file contains default values for MYSQL setup.
