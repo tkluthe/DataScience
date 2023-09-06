@@ -1,0 +1,56 @@
+.pointPoolLabel {
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+
+.pointPool {
+	width: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 5px;
+	border: #000000 1px solid;
+}
+
+.pointPoolDiv {
+	margin-bottom: 10px;
+	padding-left: 30px;
+}
+
+.choice {
+	width: 60px;
+	border-radius: 5px;
+	text-align: center;
+	border: #000000 1px solid;
+}
+
+.choiceLabel {
+	padding-left: 10px;
+}
+
+.selectionDiv {
+	margin-bottom: 10px;
+	padding-left: 45px;
+}
+
+.questionStatement {
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.showLabel {
+	display: block;
+}
+
+.hideLabel {
+	display: none;
+}
+
+.errorInput {
+	border-radius: 5px;
+	border: #FF0000 1px solid;
+}
+
+.successInput {
+	border-radius: 5px;
+	border: #4BB543 1px solid;
+}

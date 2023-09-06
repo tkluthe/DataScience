@@ -1,0 +1,8 @@
+MYSQL_ROOT_PASSWORD="secret"
+MYSQL_USER="tutorial"
+MYSQL_PASSWORD="secret"
+MYSQL_DATABASE="nomenclature"
+MYSQL_NAME="database"
+MYSQL_PORT="3306"
+DOMAIN="127.0.0.1"
+ADDRESS_SALT="thisisnottherealonejustafakeone"

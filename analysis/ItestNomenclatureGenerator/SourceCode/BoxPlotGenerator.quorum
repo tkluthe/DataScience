@@ -1,0 +1,33 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Interface.Controls.Charts.BoxPlot
+use Libraries.Interface.Controls.Charts.Chart
+
+class BoxPlotGenerator
+    action CreateChart(integer index) returns Chart
+        DataFrame frame
+        frame:Load("../data/results2023.csv")
+        frame:Filter("conceptid = " + index)
+        frame:AddColumn("normalized_response","response / max")
+        frame:AddSelectedFactors("name,group")
+        frame:AddSelectedColumns("normalized_response")
+        BoxPlot chart = frame:BoxPlot()
+        frame:GetColumn("concept"):GetAsText(1)
+        chart:SetTitle(frame:GetColumn("concept"):GetAsText(1))
+        chart:SetSubtitle(frame:GetColumn("phrase"):GetAsText(1))
+        //chart:ShowLegend(false)
+        //chart:SeparateByFactor(13)
+        chart:RotateXLabels(45)
+        chart:SetLegendTitle("Language Group")
+        chart:SetLegendLocationToTop()
+        chart:SetYAxisTitle("Preference Ratings (Normalized)")
+        chart:SetXAxisTitle("Method Names")
+        //chart:FlipOrientation()
+        //chart:SetScriptFilepath("script/quorumCharts.js")
+        //chart:SetStyleFilepath("style/quorumCharts.css")
+        //chart:Display(1400,1200,true)
+        chart:SetAccessibilityFlag(false)
+        chart:Share(frame:GetColumn("concept"):GetAsText(1) + ".html")
+    
+        return chart
+    end
+end
