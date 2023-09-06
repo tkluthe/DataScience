@@ -9,8 +9,8 @@
 		<h3>                 Dr. Nicholas Giudice</h3>
 		<h3>                 Dr. Brianna Blaser</h3>
 		<h3>                 Dr. Derrick Smith</h3>
-		<p>For questions or concerns about the study, you may contact Dr. Andreas Stefik at <b>702-895-3603.</b></p>
-        <p>For questions regarding the rights of research subjects, any complaints or comments regarding the manner in which the study is being conducted, contact <b>the UNLV Office of Research Integrity – Human Subjects at 702-895-0020 or via email at IRB@unlv.edu.</b></p>
+		<p>For questions or concerns about the study, you may contact Dr. Andreas Stefik at <b>XXX-XXX-XXXX.</b></p>
+        <p>For questions regarding the rights of research subjects, any complaints or comments regarding the manner in which the study is being conducted, contact <b>the UNLV Office of Research Integrity – Human Subjects at XXX-XXX-XXXX or via email at XXXXX@XXXXX.</b></p>
 	  </div>
       
       <div id="scroll-area">
